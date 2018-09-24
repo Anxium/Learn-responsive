@@ -315,6 +315,21 @@ footer h1
         width: 100%;
         text-align: center;
     }
+
+    #mes_photos, #listes_amis {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    #mes_photos img {
+        display: block;
+    }
+
+    #listes_amis ul {
+        margin: 0 auto;
+        list-style: none;
+    }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
@@ -333,5 +348,4 @@ footer h1
     article {
         font-size: 1.2em;
     }
-
 }
